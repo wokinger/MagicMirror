@@ -1,17 +1,17 @@
 var config = {
-    lang: 'nl',
+    lang: 'de',
     time: {
-        timeFormat: 12
+        timeFormat: 24
     },
     weather: {
         //change weather params here:
         //units: metric or imperial
         params: {
-            q: 'Baarn,Netherlands',
+            q: 'Graz,Austria',
             units: 'metric',
             // if you want a different lang for the weather that what is set above, change it here
-            lang: 'nl',
-            APPID: 'YOUR_FREE_OPENWEATHER_API_KEY'
+            lang: 'de',
+            APPID: '30028cfcd1e5d49586d206f7bd9a6148'
         }
     },
     compliments: {
@@ -23,20 +23,23 @@ var config = {
             'How was your sleep?'
         ],
         afternoon: [
-            'Hello, beauty!',
-            'You look sexy!',
-            'Looking good today!'
+            //'Hello, beauty!',
+            //'You look !',
+            //'Looking good today!'
+            'Hallooooo!'
         ],
         evening: [
-            'Wow, you look hot!',
-            'You look nice!',
-            'Hi, sexy!'
+            //'Wow, you look hot!',
+            //'You look nice!',
+            //'Hi, sexy!'
+            'Hallooooo2!'
         ]
     },
     calendar: {
         maximumEntries: 10
     },
     news: {
-        feed: 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml'
+        //feed: 'http://www.kleinezeitung.at/rss/nachrichten_stmk'
+        feed: 'http://www.kleinezeitung.at/rss/rss_graz'
     }
 }
