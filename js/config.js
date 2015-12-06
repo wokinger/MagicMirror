@@ -23,16 +23,14 @@ var config = {
             'How was your sleep?'
         ],
         afternoon: [
-            //'Hello, beauty!',
-            //'You look !',
-            //'Looking good today!'
-            'Hallooooo!'
+            'Hello, beauty!',
+            'You look !',
+            'Looking good today!'
         ],
         evening: [
-            //'Wow, you look hot!',
-            //'You look nice!',
-            //'Hi, sexy!'
-            'Hallooooo2!'
+            'Wow, you look hot!',
+            'You look nice!',
+            'Hi, sexy!'           
         ]
     },
     calendar: {
