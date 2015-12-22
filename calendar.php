@@ -2,9 +2,8 @@
 	
 	// Set the url of the calendar feed.
 //	$url = 'https://p01-calendarws.icloud.com/ca/subscribe/1/n6x7Farxpt7m9S8bHg1TGArSj7J6kanm_2KEoJPL5YIAk3y70FpRo4GyWwO-6QfHSY5mXtHcRGVxYZUf7U3HPDOTG5x0qYnno1Zr_VuKH2M';
-	$url = 'https://calendar.google.com/calendar/ical/d75o9dd237gj34kg4srqpk2ps8%40group.calendar.google.com/private-c9e004bb1d3d1a594908a0058e73d34c/basic.ics';
-		
-	/*****************************************/
+//	$url = 'https://calendar.google.com/calendar/ical/d75o9dd237gj34kg4srqpk2ps8%40group.calendar.google.com/private-c9e004bb1d3d1a594908a0058e73d34c/basic.ics';
+	$url = $_GET['url'];
 
 	// Run the helper function with the desired URL and echo the contents.
 	echo get_url($url);
