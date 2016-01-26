@@ -55,6 +55,7 @@ jQuery(document).ready(function($) {
 
 	weather.init();
 
+	sensors.init();
 	//news.init();
 
 });
